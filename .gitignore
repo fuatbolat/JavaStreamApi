@@ -27,3 +27,64 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Maven / Gradle
+target/
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.properties
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle Wrapper
+.gradle/
+build/
+
+# Logs
+*.log
+/logs
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+*.properties
+*.yml
+*.yaml
+.env
+
+# Test outputs
+/test-output/
+coverage/
+
+# STS (Spring Tool Suite)
+/.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Sensitive Files
+*.pem
+*.crt
+*.key
