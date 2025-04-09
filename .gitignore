@@ -1,90 +1,40 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
-
-
-# IntelliJ IDEA
-.idea/
-*.iws
-*.iml
-*.ipr
-
-# Maven / Gradle
-target/
+*.class
 *.jar
 *.war
 *.ear
-.mvn/wrapper/maven-wrapper.properties
-!.mvn/wrapper/maven-wrapper.jar
-
-# Gradle Wrapper
-.gradle/
+target/
 build/
 
-# Logs
-*.log
-/logs
 
-# OS files
+.idea/
+*.iml
+*.iws
+out/
+
+
+.vscode/
+
+
 .DS_Store
 Thumbs.db
 
-# Spring Boot
-*.properties
-*.yml
-*.yaml
+# Logs
+# --------------
+*.log
+logs/
+
+
 .env
-
-# Test outputs
-/test-output/
-coverage/
-
-# STS (Spring Tool Suite)
-/.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-# NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-# VS Code
-.vscode/
-
-# Sensitive Files
+*.key
 *.pem
 *.crt
-*.key
+
+
+.mvn/
+mvnw
+mvnw.cmd
+
+
+test-output/
+coverage/
